@@ -146,4 +146,4 @@ layers_dims = (9,8,5,1)                     #architecture of the network
                                             #first number has to be equal to the number of variables
 nn_model_with_mini_batches(X_train, Y_train, X_test, Y_test,layers_dims,0.1, 5000, 0.2)
 t2 = time.time()
-print(t2-t1)
+print("time taken = ",t2-t1)
